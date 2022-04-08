@@ -1,5 +1,3 @@
-from pickle import TRUE
-from tkinter import CASCADE
 from sqlalchemy import TIMESTAMP, Column, Integer, String, Boolean, ForeignKey
 from sqlalchemy.sql.expression import text
 from sqlalchemy.sql.sqltypes import TIMESTAMP
