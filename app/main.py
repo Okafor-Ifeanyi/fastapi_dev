@@ -9,7 +9,6 @@ from fastapi.middleware.cors import CORSMiddleware
 
 
 settings = Settings()
-print(settings.secret_key)
 
 # models.Base.metadata.create_all(bind=engine)
 
