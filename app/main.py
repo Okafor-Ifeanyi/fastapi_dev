@@ -32,7 +32,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "SUCCESSFULLY DEPLOYED FROM CI/CD PIPELINE"} 
+    return {"message": "SUCCESSFULLY DEPLOYED FROM CI/CD PIPELINE!!!"} 
 
 @app.exception_handler(Exception)
 async def exception_handler(request: Request, exc: Exception):
