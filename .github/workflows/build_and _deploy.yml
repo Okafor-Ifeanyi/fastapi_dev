@@ -29,9 +29,6 @@ jobs:
           --health-retries 5
 
     runs-on: ubuntu-latest
-    # strategy:
-    #   matrix:
-    #    python-version: ['pypy-2.7', 'pypy-3.7', 'pypy-3.8', 'pypy-3.9' ]
     steps:
       - name: pulling git repo
         uses: actions/checkout@v2
