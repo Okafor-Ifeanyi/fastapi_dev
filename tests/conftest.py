@@ -20,8 +20,8 @@ engine = create_engine(SQLALCHEMY_DATABASE_URL)
 Testing_SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base.metadata.create_all(bind=engine)
-
-
+ 
+ 
 # Dependency
 def override_get_db():
     db = Testing_SessionLocal()
@@ -69,7 +69,7 @@ def test_user(client):
 
 @pytest.fixture
 def token(test_user):
-    access_token = create_access_token({"user_id": test_user['id']})
+    access_token = create_access_token({"user_id": test_user['id'] })
     return access_token
 
 @pytest.fixture

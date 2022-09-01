@@ -1,7 +1,5 @@
 from fastapi import FastAPI, Request
 from typing import List
-from . import models
-from .database import engine
 from .routers import post, user, auth, vote
 from .config import Settings
 from fastapi.responses import JSONResponse
