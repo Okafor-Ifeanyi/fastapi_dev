@@ -1,4 +1,4 @@
-FastAPi
+FastApi
 
 This is my best framework for developing apis, as the name implies fastapi is fast and simple
 setting up a blog on this wont take you more that 50 lines of code(without auth).
@@ -15,4 +15,4 @@ Python is the language the Fastapi was built on
 
 
 The project here is an explicit combination of how a full fleshed api can be built using Fastapi, 
-python, Postgres, JWT auth and other basic functions.
+python, Postgres, JWT auth, github workflow, pytest and other basic functions.
